@@ -62,7 +62,7 @@ const BfgPricePage = () => {
     <div className="flex flex-col justify-center items-center h-screen">
       <h1 className="text-2xl mb-4">BFG Token Price</h1>
       {price !== null ? (
-        <p className="text-5xl font-semibold">Price: ${price.toFixed(5)}</p>
+        <p className="text-5xl font-semibold">${price.toFixed(5)}</p>
       ) : (
         <p className="text-lg">Loading...</p>
       )}
